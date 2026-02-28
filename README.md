@@ -90,6 +90,10 @@ Data Modeling & Relationships
 Geographic Visualization (Maps)
 
 Interactive Dashboard Design
+ 
+**📧 Contact**: meghakallapur@gmail.com  
+**📅 Last Updated**: February 2026
+
 
 Business Intelligence
 
