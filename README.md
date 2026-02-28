@@ -66,7 +66,7 @@ AVERAGEX(
     CALCULATE(AVERAGE('Sales'[Discount %]))
 )
 
-Actionable Business Insights
+### Actionable Business Insights
 Product Performance: Apple iPhone & Apple TV generate 80%+ of top revenue/profit
 
 Promotion Strategy: Promotion Name 1 delivers highest discount impact (28%)
@@ -77,7 +77,7 @@ Geographic Focus: Karnataka/Maharashtra cities represent sales hotspots
 
 Seasonal Planning: Sales peak in 2022-2023 - plan inventory accordingly
 
-Skills Demonstrated:
+## Skills Demonstrated:
 
 Power BI Desktop/Service
 
