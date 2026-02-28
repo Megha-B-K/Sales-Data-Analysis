@@ -17,15 +17,15 @@ Interactive **Power BI dashboard** analyzing **3,509 sales orders** with compreh
 
 ## Dashboard Features (10+ Pages)
 
-| Visual Type | Page Name | Key Insights |
-|-------------|-----------|--------------|
-| **Card** | Total Orders | 3,509 orders |
-| **Bar Charts** | Top/Bottom 5 Products | Apple iPhone/TV dominate sales & profit |
-| **Scatter Plot** | Sales vs Profit | Strong positive correlation |
-| **Horizontal Bar** | Discount by Promotion | Promotion Name 1: ~28% avg discount |
-| **Line Chart** | Sales Trends | 2022-2023 peak periods |
-| **Map** | Sales by City | Karnataka/Maharashtra clusters |
-| **Totals Cards** | Sales/Profit/Quantity | Multi-metric KPIs |
+| Visual Type        | Page Name             | Key Insights                            |
+|--------------------|-----------------------|-----------------------------------------|
+| **Card**           | Total Orders          | 3,509 orders                            |
+| **Bar Charts**     | Top/Bottom 5 Products | Apple iPhone/TV dominate sales & profit |
+| **Scatter Plot**   | Sales vs Profit       | Strong positive correlation             |
+| **Horizontal Bar** | Discount by Promotion | Promotion Name 1: ~28% avg discount     |
+| **Line Chart**     | Sales Trends          | 2022-2023 peak periods                  |
+| **Map**            | Sales by City         | Karnataka/Maharashtra clusters          |
+| **Totals Cards**   | Sales/Profit/Quantity | Multi-metric KPIs                       |
 
 ---
 
@@ -45,7 +45,7 @@ Relationships: 1:M on Order ID
 
 
 ### Key DAX Measures
-```dax
+```dax code
 -- Profit Margin
 Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
 
