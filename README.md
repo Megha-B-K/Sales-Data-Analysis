@@ -1,4 +1,4 @@
-# Power BI Sales Data Analysis Dashboard 🚀
+# Power BI Sales Data Analysis Dashboard
 
 **Author**: Megha Kallapur  
 **Location**: Karnataka, India  
@@ -15,7 +15,7 @@ Interactive **Power BI dashboard** analyzing **3,509 sales orders** with compreh
 
 ---
 
-## Dashboard Features (10+ Pages)
+## Dashboard Features 
 
 | Visual Type        | Page Name             | Key Insights                            |
 |--------------------|-----------------------|-----------------------------------------|
@@ -66,7 +66,9 @@ AVERAGEX(
     CALCULATE(AVERAGE('Sales'[Discount %]))
 )
 
-### Actionable Business Insights
+---
+
+### Actionable Business Insights ###
 Product Performance: Apple iPhone & Apple TV generate 80%+ of top revenue/profit
 
 Promotion Strategy: Promotion Name 1 delivers highest discount impact (28%)
