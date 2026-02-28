@@ -93,7 +93,7 @@ Interactive Dashboard Design
 
 Business Intelligence
  
-** Contact**: meghakallapur@gmail.com  
+** Contact**: meghakallapur22@gmail.com  
 ** Last Updated**: February 2026
 
 
