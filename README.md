@@ -76,6 +76,7 @@ AVERAGEX(
     VALUES('Sales'[Promotion Name]),
     CALCULATE(AVERAGE('Sales'[Discount %]))
 )
+```
 
 ---
 
@@ -91,6 +92,7 @@ AVERAGEX(
 
 - **Seasonal Trends:** Peak sales observed during 2022–2023
 
+---
 
 ## Skills Demonstrated
 
@@ -100,6 +102,7 @@ AVERAGEX(
 - Geographic Visualization (Maps)
 - Business Intelligence and KPI Reporting
 
+---
 
 ## Files in Repository
 
@@ -107,13 +110,10 @@ AVERAGEX(
 - **Store Data.xlsx** → Dataset
 - **Power BI Project 1 Requirements.pptx** → Project requirements
 
+---
 
 ## Contact
 
 Email: **meghakallapur22@gmail.com**
 
 GitHub: **https://github.com/Megha-B-K**
-
-
-
-
