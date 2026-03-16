@@ -79,5 +79,41 @@ AVERAGEX(
 
 
 
+## Business Insights
+
+- **Product Performance:** Apple iPhone & Apple TV generate majority of revenue and profit
+
+- **Promotion Effectiveness:** Promotion 1 provides the highest discount impact (~28%)
+
+- **Profit Correlation:** Strong relationship between sales and profit
+
+- **Geographic Trends:** Karnataka and Maharashtra cities show high sales activity
+
+- **Seasonal Trends:** Peak sales observed during 2022–2023
+
+
+## Skills Demonstrated
+
+- Power BI Dashboard Development
+- DAX Measures and Calculations
+- Data Modeling and Relationships
+- Geographic Visualization (Maps)
+- Business Intelligence and KPI Reporting
+
+
+## Files in Repository
+
+- **Sales Data Analysis.pbix** → Power BI dashboard
+- **Store Data.xlsx** → Dataset
+- **Power BI Project 1 Requirements.pptx** → Project requirements
+
+
+## Contact
+
+Email: **meghakallapur22@gmail.com**
+
+GitHub: **https://github.com/Megha-B-K**
+
+
 
 
