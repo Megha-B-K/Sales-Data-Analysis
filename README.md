@@ -77,7 +77,7 @@ AVERAGEX(
     CALCULATE(AVERAGE('Sales'[Discount %]))
 )
 
-
+---
 
 ## Business Insights
 
