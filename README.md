@@ -1,100 +1,82 @@
 # Power BI Sales Data Analysis Dashboard
 
-**Author**: Megha Kallapur  
-**Location**: Karnataka, India  
-**[GitHub](https://github.com/Megha-B-K)** 
+**Author:** Megha Kallapur  
+**Location:** Karnataka, India  
+**GitHub:** https://github.com/Megha-B-K  
+
 ---
 
 ## Project Overview
 
-Interactive **Power BI dashboard** analyzing **3,509 sales orders** with comprehensive business intelligence across products, promotions, geography, and time-series trends. Built for revenue optimization and strategic decision-making.
+Interactive **Power BI dashboard** analyzing **3,509 sales orders** to generate business insights across products, promotions, geography, and time-series trends. The dashboard helps identify revenue drivers and supports data-driven decision-making.
 
-**Dataset**: 50K+ sales records covering Product Name, Promotion Name, City (India-focused), Sales, Profit, Quantity, Discount %
+**Dataset:** 50K+ sales records including Product Name, Promotion Name, City (India-focused), Sales, Profit, Quantity, and Discount %.
 
-**Business Impact**: Identifies top-performing Apple products, optimal promotions, geographic hotspots, and peak sales periods.
+**Business Goal:** Identify top-performing products, effective promotions, geographic sales hotspots, and peak sales periods.
 
 ---
 
-## Dashboard Features 
+## Dashboard Preview
 
-| Visual Type        | Page Name             | Key Insights                            |
-|--------------------|-----------------------|-----------------------------------------|
-| **Card**           | Total Orders          | 3,509 orders                            |
-| **Bar Charts**     | Top/Bottom 5 Products | Apple iPhone/TV dominate sales & profit |
-| **Scatter Plot**   | Sales vs Profit       | Strong positive correlation             |
-| **Horizontal Bar** | Discount by Promotion | Promotion Name 1: ~28% avg discount     |
-| **Line Chart**     | Sales Trends          | 2022-2023 peak periods                  |
-| **Map**            | Sales by City         | Karnataka/Maharashtra clusters          |
-| **Totals Cards**   | Sales/Profit/Quantity | Multi-metric KPIs                       |
+![Dashboard](dashboard.png)
+
+---
+
+## Dashboard Features
+
+| Visual Type | Analysis | Insight |
+|-------------|----------|--------|
+| Card | Total Orders | 3,509 orders |
+| Bar Chart | Top/Bottom 5 Products | Apple iPhone & Apple TV dominate sales |
+| Scatter Plot | Sales vs Profit | Strong positive correlation |
+| Horizontal Bar | Discount by Promotion | Promotion 1 has ~28% avg discount |
+| Line Chart | Sales Trends | Peak sales during 2022–2023 |
+| Map | Sales by City | Karnataka & Maharashtra clusters |
+| KPI Cards | Sales / Profit / Quantity | Business performance metrics |
 
 ---
 
 ## Technical Implementation
 
 ### Data Model
-Fact Table: Sales (Order ID = Primary Key)
-├── Product Name
-├── Promotion Name
-├── City (Lat/Long for maps)
-├── Sales (₹)
-├── Profit (₹)
-├── Quantity
-└── Discount %
 
-Relationships: 1:M on Order ID
+Fact Table: **Sales**
 
+Columns:
+- Order ID
+- Product Name
+- Promotion Name
+- City
+- Sales (₹)
+- Profit (₹)
+- Quantity
+- Discount %
 
-### Key DAX Measures
-```dax code
--- Profit Margin
-Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
+Relationships: **1:M relationships using Order ID**
 
--- Year-over-Year Growth
-YoY Sales Growth = 
+---
+
+## Key DAX Measures
+
+```dax
+Profit Margin =
+DIVIDE([Total Profit], [Total Sales], 0)
+
+YoY Sales Growth =
 DIVIDE(
     [Total Sales] - CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date])),
     CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
 )
 
--- Top N Products
-Top N Sales = TOPN(5, 'Sales', [Total Sales], DESC)
+Top N Sales =
+TOPN(5, 'Sales', [Total Sales], DESC)
 
--- Average Discount by Promotion
-Avg Discount by Promotion = 
+Avg Discount by Promotion =
 AVERAGEX(
     VALUES('Sales'[Promotion Name]),
     CALCULATE(AVERAGE('Sales'[Discount %]))
 )
 
----
-
-### Actionable Business Insights ###
-Product Performance: Apple iPhone & Apple TV generate 80%+ of top revenue/profit
-
-Promotion Strategy: Promotion Name 1 delivers highest discount impact (28%)
-
-Profit Correlation: Strong positive Sales-Profit relationship - focus high-volume SKUs
-
-Geographic Focus: Karnataka/Maharashtra cities represent sales hotspots
-
-Seasonal Planning: Sales peak in 2022-2023 - plan inventory accordingly
-
-## Skills Demonstrated:
-
-Power BI Desktop/Service
-
-DAX (Advanced Measures + Calculated Columns)
-
-Data Modeling & Relationships
-
-Geographic Visualization (Maps)
-
-Interactive Dashboard Design
-
-Business Intelligence
- 
-** Contact**: meghakallapur22@gmail.com  
-** Last Updated**: February 2026
 
 
 
