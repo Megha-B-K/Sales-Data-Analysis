@@ -28,9 +28,11 @@ Interactive **Power BI dashboard** analyzing **3,509 sales orders** to generate 
 ![Sales Map](Screenshot/sales-map.png)
 
 ### Table Visual
-
+![Table Visual](Screenshot/table-visual.png)
 
 ### Profit vs Sales vs Quantity
+![Profit vs Sales vs Quantity](Screenshot/table-visual.png)
+
 
 
 ---
